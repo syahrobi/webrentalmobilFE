@@ -17,6 +17,8 @@ import {
   QItem,
   QItemSection,
   QItemLabel,
+  QForm,
+  QInput
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -35,6 +37,8 @@ Vue.use(Quasar, {
     QItem,
     QItemSection,
     QItemLabel,
+    QForm,
+    QInput
   },
   directives: {
   },
