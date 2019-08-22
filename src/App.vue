@@ -75,19 +75,18 @@
     </q-drawer>
 
     <q-page-container>
-      <Login />
+      <router-view />
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
-import Login from './components/Login.vue'
 
 export default {
   name: 'LayoutDefault',
 
   components: {
-    Login
+    
   },
 
   data () {
