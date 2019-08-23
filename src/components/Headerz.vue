@@ -43,7 +43,7 @@
             <q-item-label caption>Upload Berita</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" href="/uploadassesment">
+        <q-item clickable tag="a" href="/#/assesment">
           <q-item-section avatar>
             <q-icon name="cloud_upload" />
           </q-item-section>
