@@ -25,7 +25,7 @@
     >
       <q-list>
         <q-item-label header>Sidebar</q-item-label>
-        <q-item clickable tag="a" href="/mainmenu">
+        <q-item clickable tag="a" href="/#/mainmenu">
           <q-item-section avatar>
             <q-icon name="dashboard" />
           </q-item-section>
@@ -34,7 +34,7 @@
             <q-item-label caption>Main Menu</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" href="/berita">
+        <q-item clickable tag="a" href="/#/berita">
           <q-item-section avatar>
             <q-icon name="cloud_upload" />
           </q-item-section>
@@ -43,7 +43,7 @@
             <q-item-label caption>Upload Berita</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" href="/assesment">
+        <q-item clickable tag="a" href="/#/assesment">
           <q-item-section avatar>
             <q-icon name="cloud_upload" />
           </q-item-section>
@@ -52,7 +52,7 @@
             <q-item-label caption>Upload Assesment</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" href="/history">
+        <q-item clickable tag="a" href="/#/history">
           <q-item-section avatar>
             <q-icon name="history" />
           </q-item-section>
