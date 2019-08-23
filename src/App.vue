@@ -76,18 +76,25 @@
 
     <q-page-container>
       <Login />
+      <UploadAssesment />
+      <History />
+
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
 import Login from './components/Login.vue'
+import History from './components/History.vue'
+import UploadAssesment from './components/UploadAssesment.vue'
 
 export default {
   name: 'LayoutDefault',
 
   components: {
-    Login
+    Login,
+    UploadAssesment,
+    History
   },
 
   data () {
