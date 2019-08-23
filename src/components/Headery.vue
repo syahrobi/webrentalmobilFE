@@ -6,5 +6,4 @@
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
-
 </template>

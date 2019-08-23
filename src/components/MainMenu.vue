@@ -6,8 +6,8 @@
     <div style="margin:40px">
         <q-card
         class="my-card text-white"
-        style="background: radial-gradient(circle, #FF6868 0%, #DE1010 100%)"
-        @click="accept()"
+        style="background: radial-gradient(circle, #404040 0%, #202020 100%)"
+        @click="berita()"
         >
         <q-card-section>
             <div class="text-h6">Berita</div>
@@ -22,7 +22,8 @@
     <div style="margin:40px">
         <q-card
         class="my-card text-white"
-        style="background: radial-gradient(circle, #FF6868 0%, #DE1010 100%)"
+        style="background: radial-gradient(circle, #404040 0%, #202020 100%)"
+        @click="assesment()"
         >
         <q-card-section>
             <div class="text-h6">Assesment</div>
@@ -37,11 +38,13 @@
     <div style="margin:40px">
         <q-card
         class="my-card text-white"
-        style="background: radial-gradient(circle, #FF6868 0%, #DE1010 100%)"
+        style="background: radial-gradient(circle, #404040 0%, #202020 100%)"
+        @click="history()"
         >
         <q-card-section>
-            <div class="text-h6">Menu 3</div>
-            <div class="text-subtitle2">by Mahpudeen</div>
+            <div class="text-h6">History</div>
+            <div class="text-subtitle2">History Upload</div>
+            
         </q-card-section>
 
         <q-card-section>
@@ -52,7 +55,7 @@
     <div style="margin:40px">
         <q-card
         class="my-card text-white"
-        style="background: radial-gradient(circle, #FF6868 0%, #DE1010 100%)"
+        style="background: radial-gradient(circle, #404040 0%, #202020 100%)"
         >
         <q-card-section>
             <div class="text-h6">Menu 4</div>
@@ -67,7 +70,7 @@
     <div style="margin:40px">
         <q-card
         class="my-card text-white"
-        style="background: radial-gradient(circle, #FF6868 0%, #DE1010 100%)"
+        style="background: radial-gradient(circle, #404040 0%, #202020 100%)"
         >
         <q-card-section>
             <div class="text-h6">Menu 5</div>
@@ -90,9 +93,17 @@ export default {
     }
   },
   methods: {
-    accept() {
+    berita() {
       let self= this;
-      self.$router.push("/");
+      self.$router.push("/berita");
+    },
+    assesment() {
+        let self= this;
+        self.$router.push("/assesment");
+    },
+    history() {
+        let self= this;
+        self.$router.push("/history");
     }
   }
 }
@@ -100,5 +111,8 @@ export default {
 <style lang="stylus" scoped>
 .my-card
   width 100%
-  max-width 200px
+  max-width 250px
+.body {
+    background :#101010
+}
 </style>
