@@ -21,13 +21,15 @@ import {
   QInput,
   QCard,
   QCardSection,
-  QCardActions
+  QCardActions,
+  QFooter
 } from 'quasar'
 
 Vue.use(Quasar, {
   config: {},
   components: {
     QLayout,
+    QFooter,
     QHeader,
     QDrawer,
     QPageContainer,

@@ -2,8 +2,8 @@ import Login from '@/components/Login.vue';
 import MainMenu from '@/components/MainMenu.vue';
 
 const routes = [
-    { path: '/', component: Login},
-    { path: '/mainmenu', component: MainMenu},
+    { path: '/', component: Login, name:'login'},
+    { path: '/mainmenu', component: MainMenu, name:'mainmenu'},
 
 ];
 

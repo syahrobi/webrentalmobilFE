@@ -10,8 +10,8 @@
         @click="accept()"
         >
         <q-card-section>
-            <div class="text-h6">Menu 1</div>
-            <div class="text-subtitle2">by Mahpudeen</div>
+            <div class="text-h6">Berita</div>
+            <div class="text-subtitle2">Upload Berita</div>
         </q-card-section>
 
         <q-card-section>
@@ -25,8 +25,8 @@
         style="background: radial-gradient(circle, #FF6868 0%, #DE1010 100%)"
         >
         <q-card-section>
-            <div class="text-h6">Menu 2</div>
-            <div class="text-subtitle2">by Mahpudeen</div>
+            <div class="text-h6">Assesment</div>
+            <div class="text-subtitle2">Upload Assesment</div>
         </q-card-section>
 
         <q-card-section>

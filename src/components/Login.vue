@@ -3,7 +3,7 @@
       <div class="q-pa-md" style="max-width: 350px; width:100%;text-align:center;">
         <q-form class="q-gutter-md">
           
-            <img src="../assets/ojk.png" alt="Logo Tekno" height="100" width="300" margin="20px" />
+            <img src="../assets/ojk.png" alt="Logo Tekno" height="120" width="300" margin="20px" />
           
           <q-input
             filled
