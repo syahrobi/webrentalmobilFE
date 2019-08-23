@@ -23,13 +23,18 @@ import {
   QTable,
   QTh,
   QTr,
-  QTd
+  QTd,
+  QCard,
+  QCardSection,
+  QCardActions,
+  QFooter
 } from 'quasar'
 
 Vue.use(Quasar, {
   config: {},
   components: {
     QLayout,
+    QFooter,
     QHeader,
     QDrawer,
     QPageContainer,
@@ -46,9 +51,12 @@ Vue.use(Quasar, {
     QInput,
     QUploader,
     QTable,
-  QTh,
-  QTr,
-  QTd
+    QTh,
+    QTr,
+    QTd,
+    QCard,
+    QCardSection,
+    QCardActions
   },
   directives: {
   },

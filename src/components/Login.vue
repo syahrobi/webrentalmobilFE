@@ -1,11 +1,10 @@
 <template>
-  <q-page>
     <div class="flex flex-center">
-      <div class="q-pa-md" style="max-width: 350px; width:100%">
+      <div class="q-pa-md" style="max-width: 350px; width:100%;text-align:center;">
         <q-form class="q-gutter-md">
-          <div>
-            <img src="" style="width:300px; height:200" />
-          </div>
+          
+            <img src="../assets/ojk.png" alt="Logo Tekno" height="120" width="300" margin="20px" />
+          
           <q-input
             filled
             v-model="username"
@@ -32,7 +31,6 @@
         </q-form>
       </div>
     </div>
-  </q-page>
 </template>
 
 <style>

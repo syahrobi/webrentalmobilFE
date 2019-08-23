@@ -12,6 +12,7 @@
 
 <script>
 export default {
+  name: "history",
   data () {
     return {
       columns: [
