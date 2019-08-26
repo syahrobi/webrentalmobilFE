@@ -13,6 +13,7 @@ export function getApiNoAuth(){
         }
     })
 }
+<<<<<<< HEAD
 
 export function getApi(token, params){
     if(params){ params.access_token = token } else {
@@ -31,3 +32,5 @@ export function getApi(token, params){
         }
     })
 }
+=======
+>>>>>>> 308f196751348814ec6c86d9e25d1cde3ba2f6ee
