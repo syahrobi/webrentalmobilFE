@@ -61,7 +61,7 @@
             <q-item-label caption>History Upload</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" href="/">
+        <q-item clickable tag="a"  @click="logout()">
           <q-item-section avatar>
             <q-icon name="exit_to_app" />
           </q-item-section>
@@ -79,6 +79,13 @@ export default {
   data () {
     return {
       leftDrawerOpen: !this.$q.platform.is.desktop
+    }
+  },
+
+  methods:{
+    logout(){
+      this.$ls.remove("userNow")
+      this.$router.push("/")
     }
   }
 }

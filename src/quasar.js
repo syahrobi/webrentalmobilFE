@@ -27,7 +27,8 @@ import {
   QCard,
   QCardSection,
   QCardActions,
-  QFooter
+  QFooter,
+  Notify
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -61,5 +62,6 @@ Vue.use(Quasar, {
   directives: {
   },
   plugins: {
+    Notify
   }
  })

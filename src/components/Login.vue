@@ -1,7 +1,9 @@
 <template>
+
     <div class="flex flex-center">
+      {{userNoww}}
       <div class="q-pa-md" style="max-width: 350px; width:100%;text-align:center;">
-        <q-form class="q-gutter-md">
+        <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md">
           
             <img src="../assets/ojk.png" alt="Logo Tekno" height="120" width="300" margin="20px" />
           
@@ -40,6 +42,8 @@
 </style>
 
 <script>
+import login_api from '../api/login/index';
+
 export default {
   name: 'Login',
 
@@ -47,8 +51,54 @@ export default {
     return {
       username: "",
       password: "",
-      roles: ""
+      userNow:""
     };
   },
+
+  computed:{
+    userNoww(){
+            this.$ls.get("userNow");
+
+    }
+  },
+
+  methods:{
+
+    onSubmit() {
+      let self = this;
+
+      login_api
+        .getLogin(window, self.username, self.password)
+        .then(function(result) {
+          if (!result) {
+            self.$q.notify({
+              color: "red-5",
+              textColor: "white",
+              icon: "fas fa-exclamation-triangle",
+              message: "Wrong Username or Password"
+            });
+          } else {
+            self.$q.notify({
+              color: "green-4",
+              textColor: "white",
+              icon: "fas fa-check-circle",
+              message: "You're Logged In"
+            });
+            self.$ls.set("userNow", result.id);
+            console.log("id nya dia = ", self.$ls.get("userNow"))
+            self.$router.push("mainmenu");
+          }
+          return result;
+        })
+        .catch(function(err) {
+          console.log(err);
+        });
+    },
+
+    onReset() {
+      this.username = null;
+      this.password = null;
+    }
+  }
 }
 </script>

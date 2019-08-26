@@ -2,7 +2,7 @@
 
     <div class="flex flex-center">
       <div class="q-pa-md" style="max-width: 500px; width:100%">
-        <h3 style="text-align:center;">Upload Assisment</h3>
+        <h3 style="text-align:center;">Upload Assesment</h3>
         <q-form class="q-gutter-md">
           <div>
           </div>
@@ -25,7 +25,7 @@
           />
            
           <q-uploader
-            url="http://localhost:4444/upload"
+            url="http://localhost:/upload"
             label="Restricted to images"
             multiple
             accept=".jpg, image/*"
