@@ -3,6 +3,7 @@ import Vue from 'vue'
 import './styles/quasar.styl'
 import '@quasar/extras/material-icons/material-icons.css'
 import {
+
   Quasar, 
   QLayout,
   QHeader,
@@ -28,6 +29,14 @@ import {
   QCardSection,
   QCardActions,
   QFooter,
+  QTab,
+  QTabs,
+  QRouteTab,
+  QCarousel,
+  QCarouselControl,
+  QCarouselSlide,
+  QImg,
+  
   Notify
 } from 'quasar'
 
@@ -57,9 +66,18 @@ Vue.use(Quasar, {
     QTd,
     QCard,
     QCardSection,
-    QCardActions
+    QCardActions,
+    QTab,
+    QTabs,
+    QRouteTab,
+    QCarousel,
+    QCarouselControl,
+    QCarouselSlide,
+    QImg
+   
   },
   directives: {
+    
   },
   plugins: {
     Notify

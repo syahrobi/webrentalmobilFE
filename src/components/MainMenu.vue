@@ -3,7 +3,7 @@
         <h3>Main Menu</h3>
       
 <div class="row">
-    <div style="margin:40px">
+    <div style="margin:70px">
         <q-card
         class="my-card text-white"
         style="background: radial-gradient(circle, #404040 0%, #202020 100%)"
@@ -15,7 +15,7 @@
         </q-card-section>
 
         <q-card-section>
-            <img src="../assets/logo.png" alt="Logo Tekno" height="150" width="150" margin="20px" />
+            <img src="../assets/bean.jpg" alt="Logo Tekno" height="150" width="150" margin="20px" />
         </q-card-section>
         </q-card>
     </div>
@@ -31,7 +31,7 @@
         </q-card-section>
 
         <q-card-section>
-            <img src="../assets/logo.png" alt="Logo Tekno" height="150" width="150" margin="20px" />
+            <img src="../assets/bean.jpg" alt="Logo Tekno" height="150" width="150" margin="20px" />
         </q-card-section>
         </q-card>
     </div>
@@ -48,7 +48,7 @@
         </q-card-section>
 
         <q-card-section>
-            <img src="../assets/logo.png" alt="Logo Tekno" height="150" width="150" margin="20px" />
+            <img src="../assets/bean.jpg" alt="Logo Tekno" height="150" width="150" margin="20px" />
         </q-card-section>
         </q-card>
     </div>
@@ -63,7 +63,7 @@
         </q-card-section>
 
         <q-card-section>
-            <img src="../assets/logo.png" alt="Logo Tekno" height="150" width="150" margin="20px" />
+            <img src="../assets/bean.jpg" alt="Logo Tekno" height="150" width="150" margin="20px" />
         </q-card-section>
         </q-card>
     </div>
@@ -78,7 +78,7 @@
         </q-card-section>
 
         <q-card-section>
-            <img src="../assets/logo.png" alt="Logo Tekno" height="150" width="150" margin="20px" />
+            <img src="../assets/bean.jpg" alt="Logo Tekno" height="150" width="150" margin="20px" />
         </q-card-section>
         </q-card>
     </div>

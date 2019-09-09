@@ -12,6 +12,7 @@
 import Headerz from "@/components/Headerz.vue"
 import Headery from "@/components/Headery.vue"
 
+
 export default {
   name: 'LayoutDefault',
 
