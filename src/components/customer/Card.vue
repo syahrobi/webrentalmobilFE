@@ -1,19 +1,44 @@
 <template>
-    <div style="margin-top:570px; margin-left:10px">
+    <div style="margin-left:10px;margin-top:10px">
       <q-card class="my-card">
       <img src="../assets/Xpander.jpg">
-        <div class="absolute-bottom">
-          <div class="text-h6">Our Changing Planet</div>
-          <div class="text-subtitle2">by John Doe</div>
+        <div class="">
+          <div class="text-h6" style="margin-left:10px;">Mobil Mobilan</div>
+          <div class="text-subtitle2"></div>
         </div>
       <img>
-      
       <q-card-actions>
-        <q-btn flat>Pesan</q-btn>
+       <Calender></Calender><div class="md"  style="margin-left:8px; margin-top:15px;">Rp. {{price}} / Hari</div>
       </q-card-actions>
     </q-card>
+    
     </div>
+    
 </template>
+
+<script>
+import Calender from "@/components/customer/Calender.vue"
+
+export default {
+  name : "Card",
+  data () {
+    return {
+      price:100000
+     
+    
+    }
+  },
+  components:{
+    Calender
+  },
+  methods:{
+    pesan(){
+    
+    }
+  }
+}
+
+</script>
 
 <style scoped>
 .my-card{

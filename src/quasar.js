@@ -36,8 +36,10 @@ import {
   QCarouselControl,
   QCarouselSlide,
   QImg,
-  
-  Notify
+  QDialog,
+  QDate,
+  Notify,
+  ClosePopup
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -73,11 +75,12 @@ Vue.use(Quasar, {
     QCarousel,
     QCarouselControl,
     QCarouselSlide,
-    QImg
-   
+    QImg,
+    QDate,
+    QDialog
   },
   directives: {
-    
+    ClosePopup
   },
   plugins: {
     Notify

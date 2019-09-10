@@ -26,6 +26,7 @@ export default {
  position: absolute;
  width: 1315px;
  top: 170px;
+
 }
 .gesersedan{
  position: absolute;

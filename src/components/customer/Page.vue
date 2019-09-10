@@ -1,25 +1,29 @@
 <template >
-
  <div class="q-pa-md">
-   <search></search>
+   <search/>
 <div class="row justify-center">
       <div>
        <img src="../assets/logorental.png" />
       </div>
 </div>
-
-  <SiginLabel ></SiginLabel>
- <bar></bar>
- <slide></slide>
+  
+  <SiginLabel />
+ <bar/>
+ <slide/>
   <div  class="login"><img src="../assets/iconlogin.png"/></div>
   <div class="row">
-    <card></card>
-    <card></card>
+  
+    <div id="tes">{{mesage}}</div>
+    <div class="row " style="margin-top:570px;" ><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/> </div>
+  
   </div>
-  <Footer></Footer>  
+  <Footer/>
+  
 </div>
 
 </template>
+
+
 
 <script>
 import Search from "@/components/customer/Search.vue"
@@ -79,4 +83,3 @@ export default {
 	font-size: 22px;
 }
 </style>
-

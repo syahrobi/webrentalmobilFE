@@ -1,15 +1,12 @@
 {
-  "name": "web-loader",
+  "name": "Rental-Mobil",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
-  
   },
-
-
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.19.0",

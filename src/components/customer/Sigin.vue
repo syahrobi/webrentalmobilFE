@@ -24,9 +24,25 @@
               />
           <div >
             <q-btn style="position:absolute; bottom:200px; left:540px;" label="Login" type="submit" color="black" />
-            <q-btn style="position:absolute; bottom:200px; right:540px;" label="Reset" type="reset" color="black"  />
+            <q-btn @click="signup" style="position:absolute; bottom:200px; right:540px;" label="Sign up" color="black"  />
           </div>
           </form> 
        </div>
    </div>
 </template>
+
+<script>
+export default {
+   data () {
+    return {
+    }
+  },
+
+  methods:{
+    signup(){
+       let self= this;
+      self.$router.push("/customer/regis");
+    }
+  }
+}
+  </script>

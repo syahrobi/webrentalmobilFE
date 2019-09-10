@@ -22,10 +22,31 @@
                lazy-rules
                :rules="[ val => val && val.length > 0 || 'Please type something']"
               />
+
+               <q-input filled v-model="email" type="email" suffix="@gmail.com">
+               <template v-slot:before>
+               <q-icon name="mail" />
+               </template>
+               </q-input>
+
           <div >
-            <q-btn style="position:absolute; bottom:200px; left:540px; width:280px;" label="creat" type="submit" color="black" />
+            <q-btn style="position:absolute; bottom:160px; left:540px; width:280px;" label="creat" type="submit" color="black" />
           </div>
           </form> 
        </div>
    </div>
 </template>
+
+<script>
+
+export default {
+
+  data () {
+    return {
+      email: ''
+    }
+  }
+}
+
+</script>
+

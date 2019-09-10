@@ -2,6 +2,7 @@ import axios from 'axios'
 
 const API_URL = 'http://localhost:3000/api/';
 
+
 export function getApiNoAuth(){
     return axios.create({
         baseURL: API_URL,
@@ -13,6 +14,7 @@ export function getApiNoAuth(){
         }
     })
 }
+
 
 export function getApi(token, params){
     if(params){ params.access_token = token } else {
