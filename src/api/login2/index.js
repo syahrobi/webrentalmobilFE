@@ -19,10 +19,9 @@ export default {
 */
     loginUser(credentials, window){
         let self = this;
-        return getApiNoAuth().post('Users/login', credentials)
+        return getApiNoAuthSpringBoot().post('authen/login', credentials)
         .then(function(response){
             console.log(response)
-            localStorage.setItem('token', response.data.id);
             localStorage.setItem('userId', response.data.userId)
             return response.data;
         }).catch(function(err){

@@ -5,6 +5,9 @@ import VueRouter from 'vue-router'
 import routes from './router/routes'
 import VueLocalStorage from 'vue-localstorage'
 
+import "chart.js"
+import "hchs-vue-charts"
+
 Vue.use(VueLocalStorage, {
   name: 'ls',
   bind: true

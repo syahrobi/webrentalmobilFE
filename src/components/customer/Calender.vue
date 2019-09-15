@@ -42,7 +42,7 @@
         <q-card-section class="row items-center q-gutter-sm">
           
           <q-btn v-close-popup label="Batal" color="primary" />
-          <q-btn style="margin-left:130px" label="Lanjut" color="primary" @click="dialog2 = true" />
+          <q-btn  style="margin-left:130px" label="Lanjut" color="primary" @click="dialog2 = true" />
 
           <q-dialog v-model="dialog2">
             <q-card>
@@ -105,6 +105,7 @@
 <script>
 
 export default {
+  name : 'calender',
   data () {
     return {
        rekening:null,

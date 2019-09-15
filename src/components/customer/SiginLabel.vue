@@ -14,7 +14,7 @@ export default {
   methods:{
     sigin(){
        let self= this;
-      self.$router.push("/customer/sigin");
+      self.$router.push("/customer/login");
     },
     regis(){
        let self= this;

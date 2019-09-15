@@ -3,7 +3,7 @@
       <q-card class="my-card">
       <img src="../assets/Xpander.jpg">
         <div class="">
-          <div class="text-h6" style="margin-left:10px;">vios</div>
+          <div class="text-h6" style="margin-left:10px;">Mobil Mobilan</div>
           <div class="text-subtitle2"></div>
         </div>
       <img>

@@ -40,7 +40,7 @@
 <script>
 
 export default {
-
+   name:'regis',
   data () {
     return {
       email: ''

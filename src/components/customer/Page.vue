@@ -1,6 +1,6 @@
 <template >
  <div class="q-pa-md">
-   <search/>
+  
 <div class="row justify-center">
       <div>
        <img src="../assets/logorental.png" />
@@ -13,11 +13,16 @@
   <div  class="login"><img src="../assets/iconlogin.png"/></div>
   <div class="row">
   
-    <div id="tes">{{mesage}}</div>
-    <div class="row " style="margin-top:570px;" ><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/><card/> </div>
+    <!-- <div id="tes">{{mesage}}</div> -->
+    <div class="row " style="margin-top:570px;" ><card/><card/><card/><card/><card/><card/> </div>
   
   </div>
-  <Footer/>
+  <q-layout view="lHh Lpr lFf">
+    <q-page-container>
+      <Footer/>
+    </q-page-container>
+  </q-layout>
+  
   
 </div>
 
@@ -26,22 +31,23 @@
 
 
 <script>
-import Search from "@/components/customer/Search.vue"
+
 import Bar from "@/components/customer/Bar.vue"
 import Slide from "@/components/customer/Slide.vue"
-import Card from "@/components/customer/Card.vue" 
+ import Card from "@/components/customer/Card.vue" 
 import SiginLabel from "@/components/customer/SiginLabel.vue"
 import Footer from "@/components/customer/Footer.vue"
 
 
 export default {
-  data () {
+  name : 'page',
+   data () {
     return {
     }
   },
 
   components:{
-    Search,
+    Card,
     Bar,
     Slide,
     Card,
@@ -54,7 +60,14 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-
+.header-search-form {
+		width: 50%;
+    height: 40px;
+	position: absolute;
+  top: 80px;
+	padding: 0 100px;
+    right :350px;
+}
 
 .login{
   

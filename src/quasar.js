@@ -39,7 +39,11 @@ import {
   QDialog,
   QDate,
   Notify,
-  ClosePopup
+  ClosePopup,
+  QMarkupTable,
+  QTabPanels,
+  QTabPanel,
+  QSpace
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -77,7 +81,11 @@ Vue.use(Quasar, {
     QCarouselSlide,
     QImg,
     QDate,
-    QDialog
+    QDialog,
+    QMarkupTable,
+    QTabPanels,
+    QTabPanel,
+    QSpace
   },
   directives: {
     ClosePopup
